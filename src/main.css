@@ -9,11 +9,11 @@ html {
     margin: 0;
     padding: 0;
     border: 1px solid red;
-height: 100vh;
-overflow: hidden;
-    
-    padding-top: constant(safe-area-inset-top);    /* Safari < 11.2 */
-  padding-top: env(safe-area-inset-top);         /* Новые версии Safari */
+   
+    overflow: hidden;
+     height: 736px;
+  padding-top: constant(safe-area-inset-top);   
+  padding-top: env(safe-area-inset-top);        
   padding-left: constant(safe-area-inset-left);
   padding-left: env(safe-area-inset-left);
   padding-right: constant(safe-area-inset-right);
