@@ -3,6 +3,10 @@
     src: url('../public/fonts/houschkapro-bolditalic.woff2') format('woff2');
 }
 
+* {
+    background-color: #6b6e71;
+}
+
 html {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +16,7 @@ html {
     border: 1px solid red;
     width: 414px;
     overflow-y: auto;
-    background-color: #636568;
+    background-color: #313335;
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
     padding-left: constant(safe-area-inset-left);
@@ -25,6 +29,4 @@ html {
 
 
 
-.App {
-    background-color: #313335;
-}
+.App {}
