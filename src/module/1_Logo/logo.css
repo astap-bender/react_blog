@@ -2,7 +2,7 @@
  float: right;
     font-family: askfm;
     color: rgb(219, 219, 219);
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1.7rem, 5vw, 4rem);
     margin-top: 30px;
     padding-right: 35px;
     border: 1px solid red;
