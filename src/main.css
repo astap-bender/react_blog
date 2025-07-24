@@ -5,15 +5,26 @@
 
 
 
-html {
+@font-face {
+    font-family: 'askfm';
+    src: url('../public/fonts/houschkapro-bolditalic.woff2') format('woff2');
+}
+
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
+}
+
+html {
+    width: 323px;
+    height: 574px;
+
+
+
+
+    background-color: #313335;
     border: 1px solid red;
 
- 
- 
-    background-color: #313335;
- 
 }
