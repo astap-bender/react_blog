@@ -8,8 +8,10 @@ html {
     background-color: #313335;
     margin: 0;
     padding: 0;
-    width: 414px;
-    height: 736px;
+    height: 100vh;
+  margin: 0;  /* Убираем отступы по умолчанию */
+  padding: 0;
+  overflow: hidden; 
     border: 1px solid red;
 
 }
