@@ -18,7 +18,7 @@
     "testing.showCoverageInExplorer": false,
     "outline.icons": true,
     "explorer.sortOrder": "default",
-    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": false,
     "explorer.fileNesting.enabled": false,
     "explorer.fileNesting.expand": true,
     "notebook.stickyScroll.mode": "indented"
