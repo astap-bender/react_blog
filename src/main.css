@@ -33,6 +33,6 @@ html {
     width: 100%;
     /* Занимает всю доступную ширину, но не больше max-width */
     height: auto;
-    margin: 0 auto;
+  
 
 }
