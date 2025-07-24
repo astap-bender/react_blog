@@ -25,7 +25,7 @@ html {
     padding-bottom: env(safe-area-inset-bottom);
 
 
-
+touch-action: manipulation; 
   scrollbar-width: none; 
      overflow-x: hidden; 
 }
