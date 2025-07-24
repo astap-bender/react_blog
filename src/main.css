@@ -4,12 +4,6 @@
 }
 
 html {
-    background-color: yellow;
-}
-
-
-
-.App {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,7 +12,7 @@ html {
     border: 1px solid red;
     width: 414px;
     overflow-y: auto;
-    background-color: #313335;
+    background-color: #636568;
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
     padding-left: constant(safe-area-inset-left);
@@ -27,4 +21,10 @@ html {
     padding-right: env(safe-area-inset-right);
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
+}
+
+
+
+.App {
+    background-color: #313335;
 }
