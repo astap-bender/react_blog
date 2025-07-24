@@ -1,0 +1,26 @@
+.menu_flex {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: end;
+    width: 1080px;
+    height: 150px;
+    /* border: 2px solid white; */
+    border-top: 2px solid white;
+    border-radius: 15px;
+    margin-top: 785px;
+    /* margin-top: -1px; */
+}
+
+.min_block {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 140px;
+
+    font-size: 100px;
+}

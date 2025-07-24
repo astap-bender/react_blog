@@ -1,0 +1,14 @@
+.nick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    /* border: 3px solid rgb(231, 253, 87); */
+    color: rgb(219, 219, 219);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: auto;
+    height: auto;
+}
