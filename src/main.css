@@ -9,8 +9,6 @@ html {
     margin: 0;
     padding: 0;
     height: 100vh;
-  margin: 0;  /* Убираем отступы по умолчанию */
-  padding: 0;
   overflow: hidden; 
     border: 1px solid red;
 
