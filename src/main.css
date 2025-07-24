@@ -17,22 +17,16 @@ html {
 
 .App {
 
-    /* margin-left: 300px; */
-    /* margin-right: auto; */
-    /* Убрать центр */
-    border-radius: 15px;
+border-radius: 15px;
     background-color: #313335;
     /* width: 1080px; */
     /* height: 1920px; */
-    border-left: 2px solid red;
-    border-right: 2px solid red;
-    border-top: 2px solid red;
-    /* margin-left: 200px; */
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
     max-width: 1080px;
-    /* Ограничиваем максимальную ширину */
     width: 100%;
-    /* Занимает всю доступную ширину, но не больше max-width */
-    height: auto;
+    height: 100%;
   
 
 }
