@@ -11,6 +11,9 @@ html {
     height: 100vh;
     border: 1px solid red;
     width: 414px;
+     overscroll-behavior: contain;
+
+    
     overflow-y: auto;
     background-color: #313335;
     padding-top: constant(safe-area-inset-top);
