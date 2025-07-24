@@ -10,6 +10,7 @@ html {
     padding: 0;
     border: 1px solid red;
 overflow: hidden;
+    height:100vh
      padding-top: constant(safe-area-inset-top);    /* Safari < 11.2 */
   padding-top: env(safe-area-inset-top);         /* Новые версии Safari */
   padding-left: constant(safe-area-inset-left);
