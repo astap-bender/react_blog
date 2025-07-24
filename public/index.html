@@ -8,8 +8,7 @@
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <!-- Указывает иконку сайта (favicon). -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<!--   <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <!-- Настраивает отображение сайта на разных устройствах. -->
 
   <meta name="theme-color" content="#000000" />
@@ -17,7 +16,6 @@
 
   <meta name="description" />
   <!-- Описание страницы для поисковых систем. -->
-
 
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <!-- Иконка для устройств Apple. -->
@@ -31,12 +29,24 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <!-- Показывает сообщение, если в браузере отключен JavaScript. -->
 
-
-
   <div id="root">
     <!-- Все роуты -->
   </div>
 
+  <script>
+    // Этот код будет выполнен при загрузке страницы
+    window.onload = function() {
+      const availableWidth = screen.availWidth;
+      const availableHeight = screen.availHeight;
+
+      console.log("Доступная ширина экрана:", availableWidth, "px");
+      console.log("Доступная высота экрана:", availableHeight, "px");
+
+      // Дополнительные действия, например, сохранение в localStorage:
+      localStorage.setItem('availableWidth', availableWidth);
+      localStorage.setItem('availableHeight', availableHeight);
+    };
+  </script>
 </body>
 
 </html>
