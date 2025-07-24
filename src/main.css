@@ -10,19 +10,22 @@ html {
     padding: 0;
     width: 414px;
     height: 736px;
-
-    border: 4px solid red;
+    border: 1px solid red;
 
 }
 
-
-.App {
-
-    width: 658px;
-    height: 1180px;
-
-
-    border-radius: 15px;
-    background-color: #313335;
-    border: 2px solid white;
+body {
+    width: 100px;
+    height: 100px;
+    /* width: 400px; */
+    /* height: 720px; */
+    border: 1px solid yellow;
 }
+
+
+/* .App {
+
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+} */
