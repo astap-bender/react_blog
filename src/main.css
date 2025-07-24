@@ -1,24 +1,19 @@
 @font-face {
     font-family: 'askfm';
     src: url('../public/fonts/houschkapro-bolditalic.woff2') format('woff2');
-* {
+}
+
+
+
+html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-
-
-    /* width: 414px; */
-
-
-
-}
-
-body {
-    overflow-y: auto;
     overflow: hidden;
     height: 100vh;
     border: 1px solid red;
+    width: 414px;
+    overflow-y: auto;
     background-color: #313335;
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
@@ -29,3 +24,7 @@ body {
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
 }
+
+
+
+.App {}
