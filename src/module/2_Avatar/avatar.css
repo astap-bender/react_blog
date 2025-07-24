@@ -1,5 +1,7 @@
 .avtr {
- width: 12vw;
+
+
+    width: 12vw;
     height: 32vh;
     margin-top: 11vh;
 
@@ -8,4 +10,11 @@
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .avtr {
+        width: 30vw;
+        height: 35vh;
+    }
 }
