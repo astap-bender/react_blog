@@ -3,7 +3,7 @@
     src: url('../public/fonts/houschkapro-bolditalic.woff2') format('woff2');
 }
 
-* {
+html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,4 +29,5 @@
 .App {
     border: 3px solid white;
     width: 100%;
+    height: 700px;
 }
