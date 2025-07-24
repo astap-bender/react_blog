@@ -24,7 +24,9 @@ html {
     background-color: #313335;
     /* width: 1080px; */
     /* height: 1920px; */
- 
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
     /* margin-left: 200px; */
     max-width: 1080px;
     /* Ограничиваем максимальную ширину */
