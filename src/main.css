@@ -10,8 +10,9 @@ html {
     padding: 0;
     border: 1px solid red;
    
-    overflow: hidden;
-     height: 736px;
+   height: 100vh;
+  overflow-y: auto;
+   
   padding-top: constant(safe-area-inset-top);   
   padding-top: env(safe-area-inset-top);        
   padding-left: constant(safe-area-inset-left);
