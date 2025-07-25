@@ -1,11 +1,10 @@
 .menu_flex {
+
     width: 100dvw;
     height: 10dvh;
-    margin-top: 50dvh;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    border: 1px solid white;
+    border: 1px solid aqua;
+    position: absolute;
+    bottom: 0;
 }
 
 /* .min_block {} */
