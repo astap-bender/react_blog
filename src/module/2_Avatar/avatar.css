@@ -1,9 +1,9 @@
 .avtr {
-    width: 36dvw;
-    height: 32vh;
+    width: 20dvh;
+    height: 20vh;
     margin-top: 7.5vh;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -12,13 +12,11 @@
 @media (max-width: 575.98px) {
     .avtr {
 
-        width: 28dvw;
-        height: 38vh;
-        margin-top: 10vh;
+        width: 20dvh;
+        height: 20vh;
+        margin-top: 8vh;
         border: 1px solid white;
-        border-radius: 3px;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 }
 
@@ -29,7 +27,6 @@
         width: 32dvw;
         height: 44vh;
         margin-top: 10vh;
-        border: 1px solid white;
         border-radius: 3px;
         margin-left: auto;
         margin-right: auto;
@@ -44,7 +41,7 @@
         height: 60vh;
         margin-top: 10vh;
         border: 1px solid white;
-        border-radius: 3px;
+        border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -68,11 +65,11 @@
 @media (min-width: 1200px) {
     .avtr {
 
-        width: 16dvw;
-        height: 40vh;
-        margin-top: 1.5vh;
+        width: 25dvh;
+        height: 25vh;
+        margin-top: 9vh;
         border: 1px solid white;
-        border-radius: 3px;
+        border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
 
