@@ -1,0 +1,11 @@
+.menu_flex {
+    width: 100dvw;
+    height: 10dvh;
+    margin-top: 50dvh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border: 1px solid white;
+}
+
+/* .min_block {} */
