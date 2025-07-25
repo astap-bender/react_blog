@@ -4,19 +4,18 @@
     margin-top: 7.5vh;
     border: 1px solid white;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 /* Меньше 576px */
 @media (max-width: 575.98px) {
     .avtr {
 
-        width: 20dvh;
-        height: 20vh;
-        margin-top: 8vh;
+        width: 35dvw;
+        height: 35dvw;
+        margin-top: 12dvw;
+        margin-left: 3.5dvh;
         border: 1px solid white;
-
     }
 }
 
