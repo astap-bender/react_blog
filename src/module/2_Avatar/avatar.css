@@ -1,20 +1,80 @@
 .avtr {
-
-
-    width: 12vw;
+    width: 36dvw;
     height: 32vh;
-    margin-top: 11vh;
-
-
+    margin-top: 7.5vh;
     border: 1px solid white;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Меньше 576px */
+@media (max-width: 575.98px) {
+    .avtr {
+
+        width: 28dvw;
+        height: 38vh;
+        margin-top: 10vh;
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Больше или равно 576px */
+@media (min-width: 576px) {
+    .avtr {
+
+        width: 32dvw;
+        height: 44vh;
+        margin-top: 10vh;
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Больше или равно 768px */
 @media (min-width: 768px) {
     .avtr {
-        width: 30vw;
-        height: 35vh;
+
+        width: 32dvw;
+        height: 60vh;
+        margin-top: 10vh;
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Больше или равно 992px */
+@media (min-width: 992px) {
+    .avtr {
+
+        width: 32dvw;
+        height: 40vh;
+        margin-top: 6vh;
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Больше или равно 1200px */
+@media (min-width: 1200px) {
+    .avtr {
+
+        width: 16dvw;
+        height: 40vh;
+        margin-top: 1.5vh;
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 }
