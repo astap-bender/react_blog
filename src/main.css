@@ -21,9 +21,9 @@ html {
   width: 100dvw;
     height: 100dvh;
 
+ overflow-x: hidden;
 
-
-
+ overflow-y: hidden;
     background-color: #313335;
     border: 1px solid red;
 
